@@ -22,4 +22,8 @@ A Bash script to analyze the health of an Ubuntu virtual machine based on CPU, m
 ## Requirements
 
 - Ubuntu virtual machine
+<<<<<<< Updated upstream
 - Uses `top`, `free`, and `df` utilities
+=======
+- Uses `top`, `free`, and `df` utilities
+>>>>>>> Stashed changes

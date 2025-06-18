@@ -2,6 +2,10 @@
 
 # Function to get CPU usage as a percentage (integer)
 get_cpu_usage() {
+<<<<<<< Updated upstream
+=======
+    # Get idle percentage from top, then calculate usage
+>>>>>>> Stashed changes
     cpu_idle=$(top -bn1 | grep "Cpu(s)" | awk '{print $8}' | cut -d'.' -f1)
     cpu_usage=$((100 - cpu_idle))
     echo "$cpu_usage"
@@ -57,4 +61,8 @@ else
     echo "VM Health Status: $STATUS"
 fi
 
+<<<<<<< Updated upstream
 exit 0
+=======
+exit 0
+>>>>>>> Stashed changes
